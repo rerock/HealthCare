@@ -2,7 +2,7 @@
 # Predict the Health Care Cost
 
 
-## Introduction 
+### 1. Introduction 
 
 - <b>Statistics Concepts:</b> <br>
 Classification And Regression Tree (CART), K-fold Cross Validation, Pruning, Penalty Error, Random Forests, Boosting 
@@ -10,8 +10,7 @@ Classification And Regression Tree (CART), K-fold Cross Validation, Pruning, Pen
 - <b> Objective:</b> <br>
 Given a 1% random sample of Medicare beneficiaries, limited to those still alive at the end of 2008, I predicted the cost buckets the patients fell into in 2009 using Multi-Class CART models.
 
-------
-## Data Overview
+### 2. Data Overview
 
 - <b>Data Structure:</b><br> 
 ClaimsData.csv, represent a 1% random sample of Medicare beneficiaries, limited to those still alive at the end of 2008. There are total 458,005 observations with 16 variables<br>
