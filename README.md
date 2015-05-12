@@ -1,7 +1,10 @@
+### Contents:
+[**Predict the Health Care Cost**](https://github.com/rerock/HealthCare#predict-the-health-care-cost)<br>
+[**Assess Health Care Quality**](https://github.com/rerock/HealthCare#assess-health-care-quality)<br>
+[**Code**](https://github.com/rerock/HealthCare/blob/master/Code.R)
 
-# Predict the Health Care Cost
-
-
+----
+## Predict the Health Care Cost
 ### 1. Introduction 
 
 - <b>Statistics Concepts:</b> <br>
@@ -47,3 +50,18 @@ Penalty matrix is defined as followed:
 	- The diagonals, where the forecast = outcome,  are zeros 
 	- The top right half, where the forecast > outcome, are the error differences
 	- The bottom left half, where the forecast < outcome, double the error differences 
+	
+----
+
+## Access Helath Care Quality
+
+- <b>Statistics Concepts:</b> <br>
+Logistic Regression Model, Multicollinearity, Threshold Value, Sensitivity, Specificity, Receiver Operator Characteristic Curve (ROC), Area Under the ROC Curve (AUC) 
+
+- <b> Objective:</b> <br>
+Given a large health insurance claims database with a random sample of 1310 diabetes patients, I built a logistic regression model to detect most of the diabetic patients who might be receiving low quality care.
+
+- <b>Usage</b>
+  - Assessing quality correctly can control costs better
+  - Intervene and improve outcomes for patients with low quality care
+
